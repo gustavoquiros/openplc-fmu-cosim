@@ -1,3 +1,4 @@
+#!/bin/sh
 
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
@@ -10,4 +11,3 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/openmodelica-keyring.gpg] \
   stable" | sudo tee /etc/apt/sources.list.d/openmodelica.list
 
 sudo apt update && sudo apt install openmodelica
-
