@@ -19,4 +19,4 @@ Once the FMU is built, the simulation can be run with:
 sh run-simulation.sh <FMU file> <ST file> [<step size>] [<duration>]
 ```
 
-where ``ST file`` is the PLC program file generated from OpenPLC Editor for the OpenPLC runtime. Optionally, you can indicate a desired step size and duration of the simulation in seconds as a floating point value. Without a duration, the simulation executes until the process is killed.
+where ``ST file`` is the PLC program file generated from OpenPLC Editor for the OpenPLC runtime. Optionally, you can indicate a desired step size and duration of the simulation in seconds as a floating point value. Without a duration, the simulation executes until the process is killed (e.g. with CTRL-C).
